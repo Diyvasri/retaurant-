@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #fff8f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #hero {
+    background-image: url('https://source.unsplash.com/1600x400/?restaurant,food');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  #hero h2 {
+    font-size: 48px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .menu-item {
+    margin: 20px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
